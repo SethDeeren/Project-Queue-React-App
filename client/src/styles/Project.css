@@ -1,0 +1,33 @@
+html {
+  font-family: VarelaRound, Arial;
+  color: #698474;
+}
+
+.header {
+  color: #698474;
+  text-align: center;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group {
+  color: #698474;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #bac7a7;
+  padding: 20px;
+  margin: 10px;
+  flex: 0 0 500px;
+  /* box-shadow: -15px -15px 0px 0px rgba(100, 100, 100, 0.1); */
+}
+
+@media all and (max-width: 600px) {
+  .group {
+    width: 300px;
+  }
+}

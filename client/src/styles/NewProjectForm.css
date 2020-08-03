@@ -1,0 +1,28 @@
+#create-project-form {
+  margin-top: -4%;
+  width: 100%;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.group-inputs {
+  display: flex;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.num-input {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+}
+
+.num-input input {
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  color: #698474;
+}

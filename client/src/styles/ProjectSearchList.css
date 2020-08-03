@@ -1,0 +1,13 @@
+.result-item h4 {
+  color: #698474;
+}
+
+.result-item .link {
+  color: #698474;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+span {
+  color: #698474;
+}

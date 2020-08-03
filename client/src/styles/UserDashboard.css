@@ -1,0 +1,4 @@
+#user_dashboard {
+  display: flex;
+  flex-direction: row;
+}

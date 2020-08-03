@@ -1,0 +1,99 @@
+.Member {
+  display: flex;
+  margin: 0 -2rem 4px;
+  padding: 1.1rem 2rem;
+  height: 77px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+  /* transition: opacity 500ms ease-in-out; */
+}
+.Member-name {
+  position: relative;
+  /* transition: opacity 0.4s linear; */
+}
+/*
+  .Member.completed {
+    transition: opacity 300ms ease-in-out;
+    transition-delay: 200ms;
+    opacity: 0.5;
+  }
+  
+  .Member.completed .Member-name {
+    /* opacity: 0.6; */
+/*}
+  /*
+  .Member.completed .Member-name:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.5rem;
+    display: block;
+    width: 0%;
+    height: 4px;
+    background: #fff;
+    animation: strikeitem 0.3s ease-in 0s forwards;
+  }
+  
+  @keyframes strikeitem {
+    to {
+      width: calc(100% + 1rem);
+    }
+  }
+  */
+.Member-buttons {
+  flex-shrink: 0;
+  padding-left: 0.7em;
+  margin-left: auto;
+}
+
+.Member-buttons button {
+  border: none;
+  font-size: 1em;
+  margin: 0.4em;
+  background: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.Member-edit-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Member-edit-form label {
+  min-width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.Member-edit-form input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+  width: 25%;
+}
+.Member-edit-form button {
+  color: #bac7a7;
+  padding: 0 1.3rem;
+  border: none;
+  background: none;
+  color: #698474;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5px;
+  cursor: pointer;
+  /* transition: background 0.2s ease-out; */
+}
+.Member-edit-form button:hover {
+  color: white;
+  background: #769482;
+}
+.Member-edit-form input,
+.Member-edit-form button {
+  font-family: 'Quicksand', sans-serif;
+  height: 3rem;
+}
